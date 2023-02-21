@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title> Forms Express </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="header-container">
+        <h1 id="site-title"> Forms-Express</h1>
+    </div>
+    <div id="top-container">
+        <div id="spinner">
+            <div class="spinner-animation"></div>
+        </div>
+        <div class="main-form-container" id="main-form-container">
+            <div class="title-container form-item">
+                <h1 contenteditable="true" id="form-title-heading"> FORMS EXPRESS</h1>
+            </div>
+            <div class="form-nav-container form-item" id = "form-nav-container">
+                <h2 id="user-welcome-title"> Welcome User </h2>
+                <div class="tab-container">
+                    <div class="tab active" id="new-form-tab" data-title="New Form"> New Form </div>
+                    <div class="tab" id="my-forms-tab" data-title="My forms"> My Forms </div>
+                    <div class="tab" id="preview-tab" data-title="Preview"> Preview </div>
+               </div>
+            </div>
+            <div class="form-action-container form-item" id = "form-action-container">
+                <div class="login-container form-item" id="login-container">
+                    <input type="email" id="user-email-id" required placeholder="Enter your Gmail ID">
+                    <img class="submit-icon">
+               </div>
+               <div class="createform-container " id="createform-container">
+                 <h2 contenteditable="true" id="my-form-title"> Untitled Form</h2>
+               </div>
+               <div class="myforms-container" id="myforms-container">
+               
+              </div>
+              <div class="preview-container " id="preview-container">
+               
+              </div>
+            </div>
+        </div>
+        <div class="side-container" id = "side-container">
+            <div id="plus-btn">Add New</div>
+            <div id="options" class="hidden">
+                <button class="option-text" id="option-1"> Text Response</button>
+                <button class="option-text" id="option-2"> Single Choice </button>
+                <button class="option-text" id="option-3"> Multiple Choice </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
